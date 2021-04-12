@@ -1,43 +1,44 @@
-{
-"recipes": [
+[
   {
-    "id":1,
-    "image":"https://groupietrackers.herokuapp.com/api/images/queen.jpeg",
-    "name":"Ratatouille",
-    "members":[
-      "Freddie Mercury",
-      "Brian May",
-      "John Daecon",
-      "Roger Meddows-Taylor",
-      "Mike Grose",
-      "Barry Mitchell",
-      "Doug Fogie"
+    "id": 1,
+    "image": "https://groupietrackers.herokuapp.com/api/images/ratatouille.jpeg",
+    "name": "Ratatouille",
+    "ingredients": [
+      "Legumes",
+      "Sauce",
+      "Viande"
     ],
-    "creationDate":1970,
-    "firstAlbum":"14-12-1973",
-    "locations":"https://groupietrackers.herokuapp.com/api/locations/1",
-    "concertDates":"https://groupietrackers.herokuapp.com/api/dates/1",
-    "relations":"https://groupietrackers.herokuapp.com/api/relation/1"
+    "type": "Chaud",
+    "saison": [
+      "Hiver",
+      "Ete",
+      "Automne",
+      "Printemps"
+    ],
+    "prix": 50,
+    "tpscuisson": 40,
+    "tpspréparation": 24,
+    "preparation": "Manger un lapin\nCouper un fromage"
   },
   {
-    "id":2,
-    "image":"https://groupietrackers.herokuapp.com/api/images/soja.jpeg",
-    "name":"SOJA",
-    "members":[
-      "Jacob Hemphill",
-      "Bob Jefferson",
-      "Ryan \"Byrd\" Berty",
-      "Ken Brownell",
-      "Patrick O'Shea",
-      "Hellman Escorcia",
-      "Rafael Rodriguez",
-      "Trevor Young"
+    "id": 2,
+    "image": "https://groupietrackers.herokuapp.com/api/images/queen.jpeg",
+    "name": "Salade",
+    "ingredients": [
+      "Legumes",
+      "Sauce",
+      "Viande"
     ],
-    "creationDate":1997,
-    "firstAlbum":"05-06-2002",
-    "locations":"https://groupietrackers.herokuapp.com/api/locations/2",
-    "concertDates":"https://groupietrackers.herokuapp.com/api/dates/2",
-    "relations":"https://groupietrackers.herokuapp.com/api/relation/2"
+    "type": "Chaud",
+    "saison": [
+      "Hiver",
+      "Ete",
+      "Automne",
+      "Printemps"
+    ],
+    "prix": 20,
+    "tpscuisson": 0,
+    "tpspréparation": 1,
+    "preparation": "Couper la salde\nManger la salade"
   }
 ]
-}

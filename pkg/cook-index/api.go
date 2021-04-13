@@ -11,14 +11,14 @@ type Recipe []struct {
 	ID             int      `json:"id"`
 	Image          string   `json:"image"`
 	Name           string   `json:"name"`
-	Aleatoire      int
 	Saison         []string `json:"saison"`
 	Ingredient     []string `json:"ingredient"`
 	Prix           int      `json:"prix"`
 	TpsCuisson     int      `json:"tpscuisson"`
 	TpsPreparation int      `json:"tpspréparation"`
-	Preparation    string   `json:"preparation"`
+	Preparation    []string `json:"preparation"`
 }
+
 type About struct {
 	ID             int
 	Image          string
@@ -31,13 +31,7 @@ type About struct {
 	Prix           int
 	TpsCuisson     int
 	TpsPreparation int
-	Preparation    string
-}
-type Saison struct {
-	Hiver     string `json:"hiver"`
-	Ete       string `json:"ete"`
-	Printemps string `json:"printemps"`
-	Automne   string `json:"automne"`
+	Preparation    []string
 }
 
 var Recipes Recipe

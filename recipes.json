@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "image": "https://groupietrackers.herokuapp.com/api/images/ratatouille.jpeg",
+    "image": "../static/assets/img/bg.jpg",
     "name": "Ratatouille",
-    "ingredients": [
+    "ingredient": [
       "Legumes",
       "Sauce",
       "Viande"
@@ -18,13 +18,16 @@
     "prix": 50,
     "tpscuisson": 40,
     "tpspréparation": 24,
-    "preparation": "Manger un lapin\nCouper un fromage"
+    "preparation": [
+      "Couper les légumes",
+      "Manger les légumes"
+    ]
   },
   {
     "id": 2,
     "image": "https://groupietrackers.herokuapp.com/api/images/queen.jpeg",
     "name": "Salade",
-    "ingredients": [
+    "ingredient": [
       "Legumes",
       "Sauce",
       "Viande"
@@ -39,6 +42,9 @@
     "prix": 20,
     "tpscuisson": 0,
     "tpspréparation": 1,
-    "preparation": "Couper la salde\nManger la salade"
+    "preparation": [
+      "Couper les légumes",
+      "Manger les légumes"
+    ]
   }
 ]

@@ -1,8 +1,38 @@
 [
   {
     "id": 1,
+    "image": "../static/assets/img/poisson-pomme de terre.jpg",
+    "name": "Poisson - Pommes de Terre",
+    "personne": 4,
+    "ingredient": [
+      "4 poissons",
+      "Sauce beurre blanc",
+      "Pommes de terre"
+    ],
+    "type": "Chaud",
+    "saison": [
+      "Hiver"
+    ],
+    "prix": "15 - 25",
+    "tpscuisson": "20 min",
+    "tpspréparation": "10 min",
+    "link": "Aucun",
+    "preparation": [
+      "-Eplucher les pommes de tere",
+      "-Mettre de l'eau salée à bouillir",
+      "-Mettre les pommes de terre dans l'eau salée",
+      "-Mettre du bouillon à cuire",
+      "-Cuire le poisson dans le bouillon",
+      "-Décongeler le beurre blanc",
+      "-Égoutter les pommes de terre et le poisson",
+      "-Servir chaud !"
+    ]
+  },
+  {
+    "id": 2,
     "image": "../static/assets/img/bg.jpg",
-    "name": "Ratatouille",
+    "name": "Ratat",
+    "personne": 2,
     "ingredient": [
       "Legumes",
       "Sauce",
@@ -18,30 +48,7 @@
     "prix": 50,
     "tpscuisson": 40,
     "tpspréparation": 24,
-    "preparation": [
-      "Couper les légumes",
-      "Manger les légumes"
-    ]
-  },
-  {
-    "id": 2,
-    "image": "https://groupietrackers.herokuapp.com/api/images/queen.jpeg",
-    "name": "Salade",
-    "ingredient": [
-      "Legumes",
-      "Sauce",
-      "Viande"
-    ],
-    "type": "Chaud",
-    "saison": [
-      "Hiver",
-      "Ete",
-      "Automne",
-      "Printemps"
-    ],
-    "prix": 20,
-    "tpscuisson": 0,
-    "tpspréparation": 1,
+    "link": "http.ok",
     "preparation": [
       "Couper les légumes",
       "Manger les légumes"

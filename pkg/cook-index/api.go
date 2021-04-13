@@ -10,16 +10,20 @@ import (
 type Recipe []struct {
 	ID             int      `json:"id"`
 	Image          string   `json:"image"`
+	Type           string   `json:"type"`
 	Name           string   `json:"name"`
 	Saison         []string `json:"saison"`
 	Ingredient     []string `json:"ingredient"`
-	Prix           int      `json:"prix"`
-	TpsCuisson     int      `json:"tpscuisson"`
-	TpsPreparation int      `json:"tpspréparation"`
+	Prix           string   `json:"prix"`
+	TpsCuisson     string   `json:"tpscuisson"`
+	TpsPreparation string   `json:"tpspréparation"`
 	Preparation    []string `json:"preparation"`
+	Link           string   `json:"link"`
+	Personne       int      `json:"personne"`
 }
 
 type About struct {
+	Type           string
 	ID             int
 	Image          string
 	Suiv           int
@@ -28,10 +32,12 @@ type About struct {
 	Name           string
 	Saison         []string
 	Ingredient     []string
-	Prix           int
-	TpsCuisson     int
-	TpsPreparation int
+	Prix           string
+	TpsCuisson     string
+	TpsPreparation string
+	Personne       int
 	Preparation    []string
+	Link           string
 }
 
 var Recipes Recipe

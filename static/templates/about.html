@@ -32,28 +32,34 @@
 <div class="container">
     <img class="artistImage" src="{{.Image}}" alt="Recipe's image">
     <div class="text">
-        <div class="artistName">{{.Name}}</div>
-        <div class="categoryName">Saison:</div>
-        <div>{{ range .Saison}}
-            <div>{{ . }}</div>
-            {{end}}
-        </div>
+        <div class="artistName">{{.Name}}</div><br/>
         <div class="categoryName">Ingrédients:</div>
         <div>{{ range .Ingredient}}
             <div>{{ . }}</div>
             {{end}}
         </div>
-        <div class="categoryName">Tps Cuisson</div>
-        <div> {{.TpsCuisson}}</div>
-        <div class="categoryName">Tps preparation</div>
-        <div> {{.TpsPreparation}}</div>
-        <div class="categoryName">Prix</div>
-        <div> {{.Prix}} euros</div>
+        <div class="categoryName">Temps Cuisson</div>
+        <div> {{.TpsCuisson}} heures</div>
+        <div class="categoryName">Temps preparation</div>
+        <div> {{.TpsPreparation}} heures</div>
+        <div class="categoryName">Nombre de personnes</div>
+        <div>{{.Personne}} </div>
+        <div class="categoryName">Lien</div>
+        <div> {{.Link}}</div>
         <div class="categoryName">Preparation</div>
         <div>{{ range .Preparation}}
             <div>{{ . }}</div>
             {{end}}
         </div>
+        <div class="categoryName">Saison:</div>
+        <div>{{ range .Saison}}
+            <div>{{ . }}</div>
+            {{end}}
+        </div>
+        <div class="categoryName">Température</div>
+        <div> {{.Type}}</div>
+        <div class="categoryName">Prix</div>
+        <div> {{.Prix}} euros</div>
     </div>
     <br/>
 </div>

@@ -38,7 +38,8 @@
         <th><a>Recette</a></th>
         <th><a>Ingrédients</a></th>
         <th><a>Saison</a></th>
-        <th><a>Prix</a></th>
+        <th><a>Température</a></th>
+        <th><a>Nombre de personnes</a></th>
         <th><a>Temps de cuisson et preparation</a></th>
 
     </tr>
@@ -72,7 +73,11 @@
         </td>
         <td>
             <a href="/about/{{ .ID}}"/>
-            {{.Prix}}
+            {{.Type}}
+        </td>
+        <td>
+            <a href="/about/{{ .ID}}"/>
+            {{.Personne}}
         </td>
         <td>
             <a href="/about/{{ .ID}}"/>
